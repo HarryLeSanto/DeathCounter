@@ -1,0 +1,10 @@
+name: DeathCounter
+version: '${project.version}'
+main: me.harrylesanto.deathcounter.DeathCounter
+api-version: 1.21
+author: Harry Le Santo
+commands:
+  deathcounter:
+    description: DeathCounter base command.
+    usage: /deathcounter
+    aliases: [deathcount, deaths, dc]
